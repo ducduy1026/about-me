@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoang Nguyen Duc Duy </title>
+    <style>
+        :root {
+            --primary-color: #333;
+            --secondary-color: #555;
+            --accent-color: #e0e0e0;
+            --bg-color: #f4f7f6;
+            --sidebar-bg: #f9f9f9;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: var(--bg-color);
+            color: var(--primary-color);
+        }
+
+        .container {
+            display: flex;
+            max-width: 1000px;
+            margin: 40px auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        /* SIDEBAR STYLES */
+        .sidebar {
+            width: 35%;
+            background-color: var(--sidebar-bg);
+            padding: 40px 30px;
+            border-right: 1px solid #ddd;
+        }
+
+        .profile-img-placeholder {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 14px;
+            border: 5px solid white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            /* Replace the background below with your actual image URL */
+            /* background-image: url('your-photo.jpg'); */
+            /* background-size: cover; */
+        }
+
+        .name-title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .name-title h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+        .name-title h2 {
+            font-size: 14px;
+            font-weight: normal;
+            color: var(--secondary-color);
+            letter-spacing: 2px;
+        }
+
+        .sidebar-section {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-title {
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .sidebar-title::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 8px;
+            height: 8px;
+            background-color: var(--primary-color);
+            border-radius: 50%;
+        }
+
+        .contact-info p, .profile-text, .skills-text {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .contact-info a {
+            color: #444;
+            text-decoration: none;
+        }
+
+        /* MAIN CONTENT STYLES */
+        .main-content {
+            width: 65%;
+            padding: 40px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+        }
+
+        .job-entry, .edu-entry {
+            margin-bottom: 25px;
+        }
+
+        .job-header {
+            margin-bottom: 10px;
+        }
+
+        .job-title {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .company-name {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .date {
+            font-size: 12px;
+            color: #888;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        ul {
+            list-style-position: outside;
+            margin-left: 18px;
+        }
+
+        li {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .lessons-learned {
+            margin-top: 10px;
+            font-size: 14px;
+            font-style: italic;
+            color: #555;
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+        }
+
+        /* RESPONSIVE DESIGN FOR MOBILE */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                margin: 0;
+            }
+            .sidebar, .main-content {
+                width: 100%;
+            }
+            .sidebar {
+                border-right: none;
+                border-bottom: 1px solid #ddd;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-img-placeholder">
+                [Your Photo Here]
+            </div>
+            
+            <div class="name-title">
+                <h1>Hoang Nguyen<br>Duc Duy</h1>
+                <h2>SUPPLY CHAIN OFFICER</h2>
+            </div>
+
+            <div class="sidebar-section contact-info">
+                <div class="sidebar-title">Contact</div>
+                <p>📞 (+84) 0888 024 264</p>
+                <p>✉️ <a href="mailto:duyhnd.scm@gmail.com">duyhnd.scm@gmail.com</a></p>
+                <p>📍 Ho Chi Minh City, Vietnam</p>
+                <p>🔗 <a href="https://linkedin.com/in/ducduy1026">linkedin.com/in/ducduy1026</a></p>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">Personal Profile</div>
+                <p class="profile-text">
+                    Extremely motivated by opportunities for continuous learning, skill development, and professional growth. I am confident in my multitasking abilities. I am also a hard-working person and patient in achieving set objectives. Proactivity and self-research are my approach when encountering a problem.
+                </p>
+                <br>
+                <p class="profile-text">
+                    I graduated in May 2022. Until now, I have over three years of experience in the field of purchasing. I am now looking for a new job to apply knowledge in practical settings and gain further experience in business operations and procurement processes.
+                </p>
+            </div>
+
+            <div class="sidebar-section">
+                <div class="sidebar-title">Skills</div>
+                
+                <p class="skills-text"><strong>Communication and Presentation Skills:</strong><br>
+                Led my team during university projects. I also presented team project results and assigned topics.</p>
+                
+                <p class="skills-text"><strong>Critical Thinking:</strong><br>
+                I always find and research detailed information carefully before drawing conclusions. I also maintain an open-minded approach when receiving feedback or new information.</p>
+                
+                <p class="skills-text"><strong>Data Analysis & Forecasting:</strong><br>
+                Confident in handling data using advanced formulas and visualization. Knowledge of basic forecasting models (simple average, exponential smoothing, regression).</p>
+
+                <p class="skills-text"><strong>Technical Skills:</strong><br>
+                ERP systems (Oracle Netsuite, Dynamics 365); Office applications (Word, Excel, PowerPoint, Power BI); AI applications (Copilot, ChatGPT, Gemini).</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            
+            <section class="sidebar-section">
+                <div class="section-title">Education</div>
+                <div class="edu-entry">
+                    <div class="job-header">
+                        <div class="company-name">UNIVERSITY OF ECONOMICS HO CHI MINH CITY (UEH)</div>
+                        <div class="date">August 2018 - May 2022</div>
+                    </div>
+                    <div class="job-title">Bachelor of Foreign Trade</div>
+                    <ul>
+                        <li>GPA: 8.7</li>
+                        <li>Scholarship: UEH Academic Incentive Scholarship 2018, 2019, 2021.</li>
+                        <li>Certificate: TOEIC (English), IC3 (Microsoft Office and Windows).</li>
+                        <li>Extracurricular: Member of Learning Dept (Youth Union), Member of PR Dept (I.Commerce Club).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="sidebar-section">
+                <div class="section-title">Work Experience</div>
+
+                <div class="job-entry">
+                    <div class="job-header">
+                        <span class="job-title">Demand & Supply Planning Executive</span> | <span class="company-name">Asia Ingredients Group</span>
+                        <div class="date">May 2024 - January 2026</div>
+                    </div>
+                    <ul>
+                        <li>Developed ordering plans for assigned product groups weekly; created purchase requests (PR) to process new orders.</li>
+                        <li>Utilized Microsoft Dynamics 365 ERP system to integrate and manage purchase requests, forecasting data, and product information.</li>
+                        <li>Built and updated supply forecasts for key suppliers monthly.</li>
+                        <li>Analyzed sales and inventory reports to estimate demand forecasting data.</li>
+                        <li>Measured forecast accuracy; coordinated with sales team to improve demand metrics.</li>
+                        <li>Balanced stock and demand to place ad-hoc orders in special cases (high price, shortage, new deal, buffer stock).</li>
+                        <li>Reviewed and approved sales orders aligned with sales demand plans and stock availability.</li>
+                        <li>Coordinated with the logistics team to establish inventory reports; followed slow-moving, near shelf-life, and quality issue items.</li>
+                    </ul>
+                    <div class="lessons-learned">
+                        <strong>Lessons learned:</strong> Enhanced capability in forecasting and developing order plans particularly for long lead-time imported products; strengthened communication skills and advanced data analysis; gained a general understanding of B2B distribution operations.
+                    </div>
+                </div>
+
+                <div class="job-entry">
+                    <div class="job-header">
+                        <span class="job-title">Supply Planning Executive</span> | <span class="company-name">Guardian Vietnam</span>
+                        <div class="date">April 2023 - February 2024</div>
+                    </div>
+                    <ul>
+                        <li>Reviewed and ordered the correct stock at the right time, controlled stock levels to align with company targets at the store and distribution center.</li>
+                        <li>Processed information about purchase orders and product categories on Oracle ERP system.</li>
+                        <li>Tracked shipping progress and monitored vendor shipping service levels to reduce lost sales due to late delivery.</li>
+                        <li>Coordinated with suppliers to solve problems related to product information.</li>
+                        <li>Provided forecast and data analysis to create ad-hoc order quantities based on reports of promotional campaigns and market trends.</li>
+                        <li>Worked closely with other departments to ensure stock availability during seasonal periods.</li>
+                        <li>Supported stock orders and planogram reviews for new store openings.</li>
+                        <li>Made monthly reports on product inventory, vendor shipping status, sales, and profit of assigned SKU items.</li>
+                    </ul>
+                    <div class="lessons-learned">
+                        <strong>Lessons learned:</strong> Improved planning and order processing skills for the large store network; developed multitasking, problem-solving, and data analysis abilities through encountered situations; learned more about retail operations and work culture at a global business.
+                    </div>
+                </div>
+
+                <div class="job-entry">
+                    <div class="job-header">
+                        <span class="job-title">Planning and Ordering Executive</span> | <span class="company-name">King Food Market Corporation</span>
+                        <div class="date">July 2022 - April 2023</div>
+                    </div>
+                    <ul>
+                        <li>Processed orders on the company system, updated information about orders and product categories.</li>
+                        <li>Monitored shipping progress of orders and product inventory.</li>
+                        <li>Worked with suppliers to handle merchandise issues and ensure that products were available at stores at the right time, in the right quantity, and at the required purchase price.</li>
+                        <li>Handled returns and exchange requests from stores and distribution centers.</li>
+                        <li>Transferred goods between stores to ensure goods were properly allocated based on instant sales data.</li>
+                        <li>Coordinated with other departments to solve problems related to product quality, prices, and promotion.</li>
+                        <li>Supported building the planogram and assessing merchandise displays in stores.</li>
+                        <li>Made periodic reports on product categories, damaged stock, discounts, sales, profit, and inventory status.</li>
+                    </ul>
+                    <div class="lessons-learned">
+                        <strong>Lessons learned:</strong> Acquired general experience about ordering and purchasing in retail business; developed skills in situational analysis and assessment; enhanced problem-solving skills and the ability to multitask.
+                    </div>
+                </div>
+
+                <div class="job-entry">
+                    <div class="job-header">
+                        <span class="job-title">Purchasing Intern</span> | <span class="company-name">Con Cung Corporation</span>
+                        <div class="date">October 2021 - January 2022</div>
+                    </div>
+                    <ul>
+                        <li>Handled purchase documents such as sales contracts, delivery notes, invoices, debit notes, packing lists, new product codes, etc.</li>
+                        <li>Tracked the shipping progress of orders delivered directly to the stores.</li>
+                        <li>Updated and monitored inventory data for allocating merchandise to store units.</li>
+                        <li>Worked closely with suppliers to process supply orders.</li>
+                    </ul>
+                    <div class="lessons-learned">
+                        <strong>Lessons learned:</strong> Accumulated general knowledge in supply planning; improved the ability to work independently and adapt to corporate culture; coordinating with suppliers for handling orders helped develop problem-solving skills.
+                    </div>
+                </div>
+
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
