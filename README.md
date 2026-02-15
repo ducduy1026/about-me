@@ -5,7 +5,7 @@ My online CV website, select to view each CV version below:
 
 ---
 
-<strong>Hoang Nguyen Duc Duy<strong> <br>
+<strong>Hoang Nguyen Duc Duy</strong><br>
 Demand and Supply Planning Executive<br>
 
 🏢: Retail and B2B Distribution | FMCG | Vietnamese market<br>
