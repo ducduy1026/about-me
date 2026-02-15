@@ -10,4 +10,5 @@ My online CV website, select to view each CV version below:
 📧: duyhnd.scm@gmail.com<br>
 🔗: <a href="https://www.linkedin.com/in/ducduy1026" target="_blank" rel="noopener noreferrer">linkedin.com/in/ducduy1026</a>
 
+*----*<br>
 Many thanks for considering my profile, 
