@@ -1,4 +1,4 @@
-<link rel="icon" href="/home-favicon.ico" type="image/x-icon">
+<link rel="icon" href="/about-me/home-favicon.ico" type="image/x-icon">
 
 ## About me
 My online CV website, select to view each CV version below: 
