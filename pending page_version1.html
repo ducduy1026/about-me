@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>minimal-cv — Building...</title>
+  <meta name="robots" content="noindex" />
+  <!--
+    Temporary "building" page with improved light/dark theme toggle.
+    Place this file at: minimal-cv/index.html in the repository root.
+    It will be available at:
+    https://ducduy1026.github.io/about-me/minimal-cv/
+    Replace this file when your site is ready.
+  -->
+  <style>
+    :root {
+      --bg: #0f1724;
+      --card: #0b1220;
+      --muted: #98a0b3;
+      --accent: #7dd3fc;
+      --text: #e6eef8;
+      --border: rgba(255, 255, 255, 0.04);
+    }
+
+    /* Light theme overrides */
+    [data-theme="light"] {
+      --bg: #f9f9f9; /* Light solid background */
+      --card: #ffffff; /* White card background */
+      --muted: #6b7280; /* Neutral-muted text */
+      --accent: #0284c7; /* Bright accent color */
+      --text: #1e293b; /* Dark text for readability */
+      --border: rgba(0, 0, 0, 0.1); /* Subtle border for light theme */
+    }
+
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      transition: background-color 220ms ease, color 220ms ease;
+    }
+
+    .card {
+      position: relative;
+      background: var(--card);
+      border: 1px solid var(--border);
+      box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+      max-width: 860px;
+      width: 100%;
+      padding: 2.25rem;
+      text-align: center;
+      transition: background-color 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+    }
+
+    h1 {
+      margin: 0 0 0.6rem 0;
+      font-size: 1.8rem;
+      letter-spacing: -0.02em;
+    }
+
+    p.lead {
+      margin: 0 0 1rem 0;
+      color: var(--muted);
+      font-size: 1.1rem;
+    }
+
+    .spinner {
+      margin: 1.25rem auto 1.25rem;
+      width: 59px;
+      height: 59px;
+      border: 8px solid rgba(125, 211, 252, 0.3);
+      border-left-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1.1s linear infinite;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .info {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+    }
+
+    .actions {
+      margin-top: 1.25rem;
+      display: flex;
+      gap: 0.6rem;
+      justify-content: center;
+    }
+
+    .btn {
+      background: transparent;
+      padding: 0.55rem 0.9rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: background-color 200ms, border-color 200ms, color 200ms;
+    }
+
+    .btn:hover {
+      background: var(--accent);
+      color: var(--card);
+      border: 1px solid var(--accent);
+    }
+
+    .btn.secondary {
+      color: var(--muted);
+      border: 1px dashed var(--border);
+    }
+
+    .btn.secondary:hover {
+      background: var(--accent);
+      color: var(--card);
+      border: 1px dashed var(--accent);
+    }
+
+    footer {
+      margin-top: 1.3rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 520px) {
+      .card {
+        padding: 1.25rem;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+    }
+
+    /* Theme toggle button */
+    .theme-toggle {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      color: var(--text);
+      cursor: pointer;
+      transition: transform 150ms ease, background-color 150ms ease;
+    }
+
+    .theme-toggle:hover {
+      background: var(--accent);
+      color: var(--card);      
+    }
+
+    .theme-toggle svg {
+      display: block;
+      width: 24px;
+      height: 24px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-labelledby="title">
+    <button id="themeToggle" class="theme-toggle" aria-pressed="false" aria-label="Toggle light and dark theme" title="Toggle theme">
+      <!-- Theme toggle icon added by JavaScript -->
+    </button>
+
+    <h1 id="title">This page is being built</h1>
+    <p class="lead">Thanks for viewing — the "minimal-cv1" page is in progress and will be published here soon.</p>
+    <div class="spinner" aria-hidden="true"></div>
+    <div class="info">
+      Expected back shortly. If you need immediate info, check other versions at my home page or contact me via email.
+    </div>
+    <div class="actions">
+      <a class="btn" href="https://ducduy1026.github.io/about-me/"> ◀◁ Homepage</a>
+      <a class="btn secondary" href="mailto:duyhnd.scm@gmail.com"> ↪ Contact</a>
+    </div>
+    <footer>Page path: <strong>/about-me/minimal-cv1/</strong> — Apologize for this inconvenience.</footer>
+  </main>
+  <script>
+    const root = document.documentElement;
+    const toggle = document.getElementById("themeToggle");
+    function getInitialTheme() {
+      const stored = localStorage.getItem("theme");
+      if (stored) return stored;
+      return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+    }
+    function applyTheme(theme) {
+      root.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+      toggle.innerHTML =
+        theme === "light"
+          ? '<span>🌙</span><span class="sr-only">Switch to dark</span>'
+          : '<span>☀️</span><span class="sr-only">Switch to light</span>';
+    }
+    toggle.addEventListener("click", () => {
+      applyTheme(root.getAttribute("data-theme") === "light" ? "dark" : "light");
+    });
+    applyTheme(getInitialTheme());
+  </script>
+</body>
+</html>
