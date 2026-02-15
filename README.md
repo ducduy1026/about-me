@@ -14,3 +14,5 @@ Demand and Supply Planning Executive<br>
 
 *---*<br>
 Many thanks for considering my profile, 
+
+<link rel="icon" href="/home-favicon.ico" type="image/x-icon">
