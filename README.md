@@ -1,7 +1,7 @@
 ## About me
 My online CV website, select to view each CV version below: 
-- Version GWB (2-column): <a href="https://ducduy1026.github.io/about-me/minimal-cv1" target="_blank" rel="noopener noreferrer">ducduy1026.github.io/about-me/minimal-cv1</a>
-- Version BW (1-column): <a href="https://ducduy1026.github.io/about-me/minimal-cv2" target="_blank" rel="noopener noreferrer">ducduy1026.github.io/about-me/minimal-cv2</a>
+- Version GWB (2-column): <a href="https://ducduy1026.github.io/about-me/version1-simple-cv" target="_blank" rel="noopener noreferrer">ducduy1026.github.io/about-me/minimal-cv1</a>
+- Version BW (1-column): <a href="https://ducduy1026.github.io/about-me/pending page_version2" target="_blank" rel="noopener noreferrer">ducduy1026.github.io/about-me/minimal-cv2</a>
 
 ---
 
