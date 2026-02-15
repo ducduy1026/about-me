@@ -1,3 +1,5 @@
+<link rel="icon" href="/home-favicon.ico" type="image/x-icon">
+
 ## About me
 My online CV website, select to view each CV version below: 
 - Version GWB (2-column): <a href="https://ducduy1026.github.io/about-me/version1-simple-cv" target="_blank" rel="noopener noreferrer">ducduy1026.github.io/about-me/minimal-cv1</a>
@@ -15,4 +17,4 @@ Demand and Supply Planning Executive<br>
 *---*<br>
 Many thanks for considering my profile, 
 
-<link rel="icon" href="/home-favicon.ico" type="image/x-icon">
+
