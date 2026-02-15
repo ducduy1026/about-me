@@ -6,8 +6,8 @@ My online CV website, select to view each CV version below:
 ---
 
 #### Hoang Nguyen Duc Duy 
-🏢: Demand and Supply Planning Executive|Retail and B2B Distribution|Vietnamese market 
-📧: duyhnd.scm@gmailcom 
+🏢: Demand and Supply Planning Executive | Retail and B2B Distribution | Vietnamese market<br>
+📧: duyhnd.scm@gmail.com<br>
 🔗: <a href="https://www.linkedin.com/in/ducduy1026" target="_blank" rel="noopener noreferrer">linkedin.com/in/ducduy1026</a>
 
 Many thanks for considering my profile, 
