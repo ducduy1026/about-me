@@ -1,8 +1,14 @@
 ## About me
 My online CV website, select to view each CV version below: 
-- Simple version: <a href="https://ducduy1026.github.io/about-me/simple-cv" target="_blank" rel="noopener noreferrer">https://ducduy1026.github.io/about-me/simple-cv</a>
-- Modern version: <a href="https://ducduy1026.github.io/about-me/modern-cv" target="_blank" rel="noopener noreferrer">https://ducduy1026.github.io/about-me/modern-cv</a>
+- Version GWB (2-column): <a href="https://ducduy1026.github.io/about-me/minimal-cv1" target="_blank" rel="noopener noreferrer">ducduy1026.github.io/about-me/minimal-cv1</a>
+- Version BW (1-column): <a href="https://ducduy1026.github.io/about-me/minimal-cv2" target="_blank" rel="noopener noreferrer">ducduy1026.github.io/about-me/minimal-cv2</a>
 
 ---
 
-Many thanks for considering my profile.
+Contact informtion:
+###Hoang Nguyen Duc Duy
+🏢: Demand and Supply Planning Executive|Retail and B2B Distribution|Vietnamese market
+📧: duyhnd.scm@gmailcom
+🔗: <a href="https://www.linkedin.com/in/ducduy1026" target="_blank" rel="noopener noreferrer">linkedin.com/in/ducduy1026</a>
+
+Many thanks for considering my profile, 
